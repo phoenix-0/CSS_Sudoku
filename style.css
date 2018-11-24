@@ -1,3 +1,24 @@
-body {font-size: 62.5%;}
-.Box {display: block; width: 40rem; height: 40rem; margin: auto auto;}
-.Box_ye {display: block; width: 10rem; height: 10rem; background-color: #FFB208; float: left; margin: 2rem 0 0 2rem; border-radius: 2rem;}
+body {
+	font-size: 68.5%;
+}
+
+header {
+	display: flex;
+	width: 30rem;
+	height: 30rem;
+	/*background-color: gray;*/
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: auto auto;
+}
+header>div {
+	width: 8rem;
+	height: 8rem;
+	background-color: #F3F53F;
+	border-radius: 1rem;
+	font-size: 16px;
+	line-height: 8rem;
+	font-family: 华文新魏;
+	text-align: center;
+}
